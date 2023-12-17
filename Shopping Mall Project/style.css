@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    font-size: arial;
+    border: border-box;
+    
+}
+
+
+.nav-bar{
+    height: 100px;
+    background-color:#1f2021;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+
+.nav-address{
+    color: white;
+    width:80px;
+}
+
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+
+}
+
+.add-second{
+    font-size: 1rem;
+
+}
+.nav-cart  {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+
+
+.nav-cat{
+    font-size: 30px;
+    border: 1px solid transparent;
+    border-radius: 100px;
+    background-color: gray;
+}
+
+
+.nav-dog{
+    font-size: 30px;
+    border: 1px solid transparent;
+    border-radius: 100px;
+    background-color:gray;
+}
+
+
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left: 20px;
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+
+
+body{
+    background-image: url(https://images.pexels.com/photos/396547/pexels-photo-396547.jpeg?cs=srgb&dl=pexels-francesco-ungaro-396547.jpg&fm=jpg);
+
+}
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+/*  background-color: #e2e7e6;*/
+}
+
+
+.box{
+/*  border: 2px solid black;*/
+    height: 400px;
+    width: 23%;
+    background-color: white;
+/*  padding: 20px 0px 15px;*/
+    margin-top: 15px;
+}
+
+
+.box-img{
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+
